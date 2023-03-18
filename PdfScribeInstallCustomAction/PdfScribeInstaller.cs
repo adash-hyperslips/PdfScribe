@@ -38,15 +38,15 @@ namespace PdfScribeInstallCustomAction
         private readonly String logEventSourceNameDefault = "PdfScribeCore";
 
         const string ENVIRONMENT_64 = "Windows x64";
-        const string PRINTERNAME = "PDF Scribe";
-        const string DRIVERNAME = "PDF Scribe Virtual Printer";
-        const string HARDWAREID = "PDFScribe_Driver0101";
-        const string PORTMONITOR = "PDFSCRIBE";
+        const string PRINTERNAME = "Hyperdrive";
+        const string DRIVERNAME = "Hyperdrive virtual printer.";
+        const string HARDWAREID = "HyperDriver0101";
+        const string PORTMONITOR = "Hyperdrive";
         const string MONITORDLL = "redmon64pdfscribe.dll";
         const string PORTNAME = "PSCRIBE:";
         const string PRINTPROCESOR = "winprint";
 
-        const string DRIVERMANUFACTURER = "S T Chan";
+        const string DRIVERMANUFACTURER = "Hyperslips";
         
         const string DRIVERFILE = "PSCRIPT5.DLL";
         const string DRIVERUIFILE = "PS5UI.DLL";

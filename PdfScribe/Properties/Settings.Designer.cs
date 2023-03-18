@@ -25,7 +25,7 @@ namespace PdfScribe.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("%UserProfile%\\PDFSCRIBE.PDF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("%UserProfile%\\invoice.pdf")]
         public string OutputFile {
             get {
                 return ((string)(this["OutputFile"]));
@@ -43,7 +43,7 @@ namespace PdfScribe.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool AskUserForOutputFilename {
             get {
                 return ((bool)(this["AskUserForOutputFilename"]));
